@@ -1,2 +1,2 @@
-# Trail-Project
-Trail Purpose only
+# Car-Price-Project
+Machine Learning model which predicts the car prices.

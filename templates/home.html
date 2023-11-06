@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/car_price" method="POST">
+        <label for="brands">Select the brand</label>
+        <select name="brand" id="brands">
+    
+            <option value="Maruti">Maruti</option> 
+            <option value="Hyundai">Hyundai</option> 
+            <option value="Mahindra">Mahindra</option> 
+            <option value="Tata">Tata</option> 
+            <option value="Toyota">Toyota</option> 
+            <option value="Honda">Honda</option> 
+            <option value="Ford">Ford</option> 
+            <option value="Chevrolet">Chevrolet</option> 
+            <option value="Renault">Renault</option> 
+            <option value="Volkswagen">Volkswagen</option> 
+            <option value="BMW">BMW</option> 
+            <option value="Skoda">Skoda</option>
+            <option value="Nissan">Nissan</option>
+            <option value="Jaguar">Jaguar</option>
+            <option value="Volvo">Volvo</option>
+            <option value="Datsun">Datsun</option>
+            <option value="Mercedes-Benz">Mercedes-Benz</option>
+            <option value="other">Other</option>
+    
+        </select>
+
+        <label for="kms">Km Driven</label>
+        <input type="number" name="km_driven" id="kms">
+
+        <label for="fuel t">Fuel Type</label>
+        <select name="fuel type" id="fuel t">
+            <option value="Diesel">Diesel</option>
+            <option value="Petrol">Petrol</option>
+            <option value="CNG">CNG</option>
+            <option value="LPG">LPG</option>
+        </select>
+
+
+        <label for="owner">Owner</label>
+        <select name="owner" id="owner">
+            <option value="First Owner">First Owner</option>
+            <option value="Second Owner">Second Owner</option>
+            <option value="Third Owner">Third Owner</option>
+            <option value="Fourth & Above Owner">Fourth & Above Owner</option>
+            <option value="Test Drive Car">Test Drive Car</option>
+        </select>
+
+        <div>
+            <input type="submit" value="Check Price">
+        </div>
+    </form>
+
+
+</body>
+</html>
